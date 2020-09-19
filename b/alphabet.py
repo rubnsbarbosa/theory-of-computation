@@ -6,4 +6,4 @@ class Alphabet:
         self.symbols.append(s)
 
     def print_symbols(self):
-        print("symbols: {}".format(self.symbols))
+        print("Símbolos: {}".format(self.symbols))
