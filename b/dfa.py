@@ -72,6 +72,7 @@ class DFA:
 
 
     def __str__(self):
+        print(f"Estados: {self.states}")
         print(f"\nEstado inicial: {self.initial_state}")
         print(f"Estado final: {self.final_state}")
 
